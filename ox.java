@@ -176,12 +176,61 @@ public class ox extends JFrame {
 
     }
     private void check(){
-        if (jbtn1.getText().equals(jbtn2.getText())&&jbtn2.getText().equals(jbtn3.getText())&&!jbtn1.getText().equals("0")){
-         if (jbtn1.getText().equals(0)){
+        if (jbtn1.getText().equals(jbtn2.getText())&&jbtn2.getText().equals(jbtn3.getText())&&!jbtn1.getText().equals("")){
+         if (jbtn1.getText().equals("o")){
              jlb1.setText("player1 win");
          }else {
              jlb1.setText("player2 win");
          }
+        }
+        if (jbtn1.getText().equals(jbtn5.getText())&&jbtn5.getText().equals(jbtn9)&&!jbtn1.getText().equals("")){
+            if (jbtn1.getText().equals("o")){
+                jlb1.setText("player1 win");
+            }else {
+                jlb1.setText("player2 win");
+            }
+        }
+        if (jbtn1.getText().equals(jbtn4.getText())&&jbtn4.getText().equals(jbtn7)&&!jbtn1.getText().equals("")){
+            if (jbtn1.getText().equals("o")){
+                jlb1.setText("player1 win");
+            }else {
+                jlb1.setText("player2 win");
+            }
+        }
+        if (jbtn2.getText().equals(jbtn5.getText())&&jbtn5.getText().equals(jbtn8)&&!jbtn2.getText().equals("")){
+            if (jbtn2.getText().equals("o")){
+                jlb1.setText("player1 win");
+            }else {
+                jlb1.setText("player2 win");
+            }
+        }
+        if (jbtn3.getText().equals(jbtn6.getText())&&jbtn6.getText().equals(jbtn9)&&!jbtn3.getText().equals("")){
+            if (jbtn3.getText().equals("o")){
+                jlb1.setText("player1 win");
+            }else {
+                jlb1.setText("player2 win");
+            }
+        }
+        if (jbtn4.getText().equals(jbtn5.getText())&&jbtn5.getText().equals(jbtn6)&&!jbtn4.getText().equals("")){
+            if (jbtn4.getText().equals("o")){
+                jlb1.setText("player1 win");
+            }else {
+                jlb1.setText("player2 win");
+            }
+        }
+        if (jbtn7.getText().equals(jbtn8.getText())&&jbtn8.getText().equals(jbtn9)&&!jbtn7.getText().equals("")){
+            if (jbtn7.getText().equals("o")){
+                jlb1.setText("player1 win");
+            }else {
+                jlb1.setText("player2 win");
+            }
+        }
+        if (jbtn3.getText().equals(jbtn5.getText())&&jbtn5.getText().equals(jbtn7)&&!jbtn3.getText().equals("")){
+            if (jbtn3.getText().equals("o")){
+                jlb1.setText("player1 win");
+            }else {
+                jlb1.setText("player2 win");
+            }
         }
     }
 }
